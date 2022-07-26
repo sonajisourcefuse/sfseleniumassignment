@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 26 13:27:58 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>35 seconds (35953 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testjava.AllTestPage.allTest()'><b>allTest</b><br>Test class: testjava.AllTestPage<br/>
+<a href="#Output-50826412" onClick='toggleBox("Output-50826412", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-50826412" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-50826412">
+Verifying Title Of Page-: ToolsQA<br/>
+Verifying Current URl Of Page :- https://demoqa.com/<br/>
+Selecting Elements Option on Home Page<br/>
+Verifyiing Text Fields On Elements Page<br/>
+Entering Values in Text Fields<br/>
+Submit Button is Clicked Successfully<br/>
+Verifyiing Check Box Option on Elements Page<br/>
+Home Check Box is Clicked Successfully<br/>
+Verifyiing Radio Button Option on Elements Page<br/>
+Go Back To Home Page By Clicking On ToolsQA logo<br/>
+ToolsQA Logo is Clicked Successfully<br/>
+Select Alert Option From Home Page<br/>
+Verifying Alert By Clicking click me Button<br/>
+clicking on Alerts from Alerts, Frame & Windows<br/>
+click me button is Clicked Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>testjava.AllTestPage@6e9175d8</td></tr>
+</table><p>
+</body>
+</html>
